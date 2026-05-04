@@ -1,0 +1,24 @@
+{
+  "train": {
+    "mae": 3.326478488130603,
+    "rmse": 5.391274966182061,
+    "r2": 0.9871028713822831
+  },
+  "test": {
+    "mae": 5.232091834510479,
+    "rmse": 7.573261023462862,
+    "r2": 0.8959477784780855
+  },
+  "selected_model": {
+    "hidden_layer_sizes": [
+      64,
+      32
+    ],
+    "alpha": 0.0001,
+    "learning_rate_init": 0.001,
+    "validation_rmse": 7.197510764810249
+  },
+  "train_rows": 8653,
+  "test_rows": 2121,
+  "feature_count": 54
+}
